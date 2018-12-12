@@ -4,28 +4,36 @@ body {
   }
   
 header, footer {
+  display: flex;
     padding: 10px;
     color: white;
     background-color: black;
+    padding-left: 12.5%;padding-right: 8%;
   }
   
   section {
     margin: 5px;
     padding: 10px;
     background-color: lightgrey;
+    padding-left: 12.5%;padding-right: 12.5%;
   }
   
   article {
     margin: 5px;
     padding: 10px;
     background-color: white;
+    
+  }
+  nav{
+    padding-left: 30%;padding-right: 8%;display: flex;padding-top:10px
+    
   }
   
- menu ul {
+ nav ul {
     padding: 0;
   }
   
- menu ul li {
+ nav ul li {
     display: inline;
     margin: 5px;
   }
