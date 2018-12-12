@@ -9,6 +9,7 @@ header, footer {
     color: white;
     background-color: black;
     padding-left: 12.5%;padding-right: 8%;
+    flex: 1
   }
   
   section {
@@ -25,8 +26,7 @@ header, footer {
     
   }
   nav{
-    padding-left: 30%;padding-right: 8%;display: flex;padding-top:10px
-    
+    padding-left:70%;padding-top:10px
   }
   
  nav ul {
