@@ -5,13 +5,16 @@ body {
   
 header, footer {
   display: flex;
-    padding: 10px;
+    padding: 10px 0px;
     color: white;
     background-color: black;
-    padding-left: 12.5%;padding-right: 8%;
+    padding-left: 12.5%;padding-right: 12.5%;
     flex: 1
   }
-  
+  header{
+    display: flex;
+    justify-content: space-between
+  }
   section {
     margin: 5px;
     padding: 10px;
@@ -26,7 +29,7 @@ header, footer {
     
   }
   nav{
-    padding-left:70%;padding-top:10px
+    padding-top:10px;padding-bottom: 10px;
   }
   
  nav ul {
